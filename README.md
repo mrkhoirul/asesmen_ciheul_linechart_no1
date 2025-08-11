@@ -2,12 +2,6 @@
 
 Script ini digunakan untuk membaca hasil pengujian jaringan **iperf** yang disimpan dalam file teks (`data.txt`), mengekstrak **timestamp** dan **bitrate** dari bagian *sender summary*, kemudian memvisualisasikannya sebagai **line chart** menggunakan [Bokeh](https://bokeh.org/).
 
-## 📂 Struktur Proyek
-.
-├── data.txt                # File hasil output iperf
-├── main.py           # Script Python untuk parsing & plot grafik
-└── README.md               # Dokumentasi
-
 ## ⚙️ Instalasi
 Pastikan Python 3.x sudah terinstall di sistem Anda.  
 Kemudian install dependensi yang dibutuhkan:
